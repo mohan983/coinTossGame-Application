@@ -1,0 +1,61 @@
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coinToss-container {
+  background-color: white;
+  background-size: cover;
+  padding: 40px;
+  font-family: Roboto;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  color: #a35200;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.paragraph {
+  color: #334155;
+  font-size: 25px;
+}
+
+.Toss-image {
+  height: 20vh;
+  width: 12vw;
+}
+
+.button {
+  background-color: #f9d423;
+  background-size: cover;
+  color: #a35200;
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 20px;
+  border: 0px;
+}
+
+.tossResults-container {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20vw;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.tossResults {
+  color: #475569;
+  font: 18px;
+}
